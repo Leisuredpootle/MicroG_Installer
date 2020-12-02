@@ -1,0 +1,6 @@
+id=MicroG_Installer
+name=MicroG Installer
+version=0.2.14.204215-alpha
+versionCode=1
+author=Nonoka
+description=Install MicroG(require Fake significance and Android11)

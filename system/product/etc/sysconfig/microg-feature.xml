@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+    <!-- This is meant to be the canonical feature identifying 2016 and newer Nexus devices. -->
+    <feature name="com.google.android.feature.PIXEL_EXPERIENCE" />
+
+    <!-- The feature identifying devices which are able to use the Turbo app -->
+    <feature name="com.google.android.feature.TURBO_PRELOAD" />
+
+    <!-- The feature identifying devices which are able to use the Android Wellbeing app. -->
+    <feature name="com.google.android.feature.WELLBEING" />
+
+    <!-- Enable Zero Touch Provisioning support for 2016 and newer Nexus devices. -->
+    <feature name="com.google.android.feature.ZERO_TOUCH" />
+    
+    <!-- This is for preloaded Google Dialer to get play store update. -->
+    <feature name="com.google.android.apps.dialer.SUPPORTED" />
+    
+        <!-- This defines the Photos preload feature for specifically the 2019 Pixel devices. -->
+    <feature name="com.google.android.apps.photos.PIXEL_2019_PRELOAD" />
+    
+        <!-- This is meant to be the canonical feature identifying 2017 and newer Nexus devices. -->
+    <feature name="com.google.android.feature.PIXEL_2017_EXPERIENCE" />
+    
+        <!-- This is meant to be the canonical feature identifying 2018 and newer Pixel devices. -->
+    <feature name="com.google.android.feature.PIXEL_2018_EXPERIENCE" />
+    
+        <!-- This is meant to be the canonical feature identifying 2019 and newer devices. -->
+    <feature name="com.google.android.feature.PIXEL_2019_EXPERIENCE" />
+    
+    <!-- This is meant to be the canonical feature identifying 2019 mid year and newer devices. -->
+    <feature name="com.google.android.feature.PIXEL_2019_MIDYEAR_EXPERIENCE" />
+
+</config>

@@ -1,0 +1,10 @@
+<permissions>
+  <privapp-permissions package="com.google.android.gms">
+  <permission name="com.google.android.gtalkservice.permission.GTALK_SERVICE" />
+  <permission name="org.microg.gms.STATUS_BROADCAST" />
+  <permission name="org.microg.nlp.SERVICE_ADMIN" />
+  <permission name="android.permission.INSTALL_LOCATION_PROVIDER" />
+  <permission name="com.google.android.c2dm.permission.SEND" />
+  <permission name="com.google.android.c2dm.permission.RECEIVE" />
+  </privapp-permissions>
+</permissions>
