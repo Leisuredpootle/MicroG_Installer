@@ -82,6 +82,7 @@
     <system-user-whitelisted-app package="org.microg.gms.droidguard" />
     <system-user-whitelisted-app package="com.google.android.apps.turbo" />
     <system-user-whitelisted-app package="com.google.android.apps.wellbeing" />
+
     <!-- Apps below are optional on GMS devices -->
     <system-user-whitelisted-app package="com.google.android.play.games" />
     <system-user-whitelisted-app package="com.google.android.tts" />
