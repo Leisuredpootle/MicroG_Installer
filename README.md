@@ -3,7 +3,7 @@
 
 **提示：**
 
-1.去看看microG的self-check 看看是不是全都有勾勾，没有就按MicroG的步骤走，解决不了请发issue
+1.去看看microG的self-check 看看是不是全都有勾勾，没有就按MicroG的步骤走
 
 2.microG和play商店（打了microG补丁）可以去用nanodroid和microG官方f-droid源去更新。模块没问题就不会更新了
 
@@ -20,3 +20,5 @@ https://microg.org/download.html
 https://gitlab.com/Nanolx/NanoDroid/-/blob/master/doc/Issues.md
 
 https://github.com/microg/GmsCore/wiki/Helpful-Information
+
+6.解决不了请发issue
