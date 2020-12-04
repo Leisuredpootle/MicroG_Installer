@@ -6,5 +6,6 @@
   <permission name="android.permission.INSTALL_LOCATION_PROVIDER" />
   <permission name="com.google.android.c2dm.permission.SEND" />
   <permission name="com.google.android.c2dm.permission.RECEIVE" />
+  <permission name="android.permission.FAKE_PACKAGE_SIGNATURE" />
   </privapp-permissions>
 </permissions>
