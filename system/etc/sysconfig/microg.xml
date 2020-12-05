@@ -14,13 +14,12 @@
      limitations under the License.
 -->
 
-<!-- These are configurations that must exist on all GMS devices. -->
 <config>
     <!-- These are the standard packages that are white-listed to always have internet
          access while in power save mode, even if they aren't in the foreground. -->
 
     <!-- MicroG must always have network access for GCM and other things. -->
-    <allow-in-power-save-except-idle package="com.google.android.gms" />
+    <allow-in-power-save package="com.google.android.gms" />
     <allow-in-data-usage-save package="com.google.android.gms" />
     <allow-unthrottled-location package="com.google.android.gms" />
     <allow-ignore-location-settings package="com.google.android.gms" />
@@ -95,8 +94,8 @@
 
     <!-- Specify the explicit set of other applications whose app data directories are
         accessible by other applications. -->
-    <app-data-isolation-whitelisted-app package="com.google.android.gms" />
+    <!-- app-data-isolation-whitelisted-app package="com.google.android.gms" / -->
 
     <!-- Whitelist of packages that eligible for rollback -->
-    <rollback-whitelisted-app package="com.android.vending" />
+    <!-- rollback-whitelisted-app package="com.android.vending" / -->
 </config>
