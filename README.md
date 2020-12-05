@@ -11,14 +11,15 @@ https://www.nanolx.org/fdroid/repo/
 
 https://microg.org/download.html
 
-3.看看是不是所有app都有授予权限，没有的就手动授权
 
-4.要用fcm的话记得忽略电池优化,sysconfig里没加“allow-in-powersave”
+看看是不是所有app都有授予权限，没有的就手动授权
 
-5.遇到问题，请参阅以下两个链接
+
+
+遇到问题，请参阅以下两个链接
 
 https://gitlab.com/Nanolx/NanoDroid/-/blob/master/doc/Issues.md
 
 https://github.com/microg/GmsCore/wiki/Helpful-Information
 
-6.解决不了请发issue
+https://github.com/FriendlyNeighborhoodShane/MinMicroG/blob/master/install.md
