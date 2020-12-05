@@ -6,8 +6,6 @@ This XML file declares which platform apps that need to access internal APIs.
 
   <hidden-api-whitelisted-app package="com.google.android.gsf" />
   <hidden-api-whitelisted-app package="com.google.android.gms" />
-  <hidden-api-whitelisted-app package="com.google.android.apps.turbo" />
-  <hidden-api-whitelisted-app package="com.google.android.apps.wellbeing" />
   <hidden-api-whitelisted-app package="org.microg.gms.droidguard" />
   <hidden-api-whitelisted-app package="com.android.vending" />
 
