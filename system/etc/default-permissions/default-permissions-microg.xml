@@ -46,11 +46,6 @@
 
     <exception
             package="com.google.android.gms">
-        <!-- Calendar -->
-        <permission name="android.permission.READ_CALENDAR" fixed="false"/>
-        <permission name="android.permission.WRITE_CALENDAR" fixed="false"/>
-        <!-- Camera -->
-        <permission name="android.permission.CAMERA" fixed="false"/>
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
@@ -58,8 +53,6 @@
         <!-- Location -->
         <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
         <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
-        <!-- Microphone -->
-        <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
         <!-- Phone -->
         <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
         <permission name="android.permission.CALL_PHONE" fixed="false"/>
@@ -68,8 +61,6 @@
         <permission name="android.permission.ADD_VOICEMAIL" fixed="false"/>
         <permission name="android.permission.USE_SIP" fixed="false"/>
         <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
-        <!-- Sensors -->
-        <permission name="android.permission.BODY_SENSORS" fixed="false"/>
         <!-- SMS -->
         <permission name="android.permission.SEND_SMS" fixed="false"/>
         <permission name="android.permission.RECEIVE_SMS" fixed="false"/>
