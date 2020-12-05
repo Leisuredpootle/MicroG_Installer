@@ -102,10 +102,4 @@
     <allow-association target="com.google.android.as" allowed="com.google.android.gms" />
     <allow-association target="com.google.android.as" allowed="com.google.android.gsf" />
 
-    <!-- Specify the explicit set of other applications whose app data directories are
-        accessible by other applications. -->
-    <!-- app-data-isolation-whitelisted-app package="com.google.android.gms" / -->
-
-    <!-- Whitelist of packages that eligible for rollback -->
-    <!-- rollback-whitelisted-app package="com.android.vending" / -->
 </config>
