@@ -107,7 +107,7 @@
   <permission name="com.android.permission.USE_INSTALLER_V2" />
   <permission name="android.permission.QUERY_ALL_PACKAGES" />
   <permission name="com.google.android.finsky.permission.INTERNAL_BROADCAST" />
-
+  <!-- FAKE_PACKAGE_SIGNATURE -->
   <permission name="android.permission.FAKE_PACKAGE_SIGNATURE" />
   </privapp-permissions>
 </permissions>

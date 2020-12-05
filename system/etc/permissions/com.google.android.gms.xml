@@ -226,7 +226,7 @@
   <permission name="com.google.android.gms.permission.SHOW_WARM_WELCOME_TAPANDPAY_APP" />
   <permission name="com.google.android.gms.permission.BIND_PAYMENTS_CALLBACK_SERVICE" />
   <permission name="com.google.android.gms.chimera.permission.CONFIG_CHANGE" />
-
+  <!-- FAKE_PACKAGE_SIGNATURE -->
   <permission name="com.google.android.gtalkservice.permission.GTALK_SERVICE" />
   <permission name="org.microg.gms.STATUS_BROADCAST" />
   <permission name="org.microg.nlp.SERVICE_ADMIN" />
