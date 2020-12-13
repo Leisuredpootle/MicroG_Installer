@@ -88,8 +88,8 @@
 
     <!-- Specify the explicit set of other applications whose app data directories are
         accessible by other applications. -->
-    <!-- app-data-isolation-whitelisted-app package="com.google.android.gms" / -->
+    <app-data-isolation-whitelisted-app package="com.google.android.gms" />
 
     <!-- Whitelist of packages that eligible for rollback -->
-    <!-- rollback-whitelisted-app package="com.android.vending" / -->
+    <rollback-whitelisted-app package="com.android.vending" />
 </config>
