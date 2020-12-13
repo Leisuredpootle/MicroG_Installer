@@ -16,7 +16,7 @@ https://microg.org/download.html
 
 
 
-遇到问题，请参阅以下两个链接
+遇到问题，请参阅以下链接,因为大部分microG包的问题是类似的,其解决方案也类似
 
 https://gitlab.com/Nanolx/NanoDroid/-/blob/master/doc/Issues.md
 
