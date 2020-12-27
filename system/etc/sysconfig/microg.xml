@@ -67,6 +67,7 @@
     <!-- Apps below are optional on GMS devices -->
     <system-user-whitelisted-app package="com.google.android.play.games" />
     <system-user-whitelisted-app package="com.google.android.tts" />
+    
     <!-- Whitelist of what components are permitted as backup data transports.  The
          'service' attribute here is a flattened ComponentName string. -->
     <backup-transport-whitelisted-service
@@ -80,4 +81,6 @@
 
     <!-- Whitelist of packages that eligible for rollback -->
     <rollback-whitelisted-app package="com.android.vending" />
+    
+    <whitelisted-staged-installer package="com.android.vending" />
 </config>

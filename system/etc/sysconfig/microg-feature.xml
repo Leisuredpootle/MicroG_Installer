@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <config>
+
+    <feature name="com.google.android.feature.GOOGLE_BUILD" />
+    <!-- This should be added to all Nexus and GPe devices -->
+    <feature name="com.google.android.feature.GOOGLE_EXPERIENCE" />
+    <!-- This should declare the version of Exchange that ships -->
+    <feature name="com.google.android.feature.EXCHANGE_6_2" />
+    
     <!-- This is meant to be the canonical feature identifying 2016 and newer Nexus devices. -->
     <feature name="com.google.android.feature.PIXEL_EXPERIENCE" />
 
@@ -30,5 +37,16 @@
     
     <!-- This is meant to be the canonical feature identifying 2019 mid year and newer devices. -->
     <feature name="com.google.android.feature.PIXEL_2019_MIDYEAR_EXPERIENCE" />
+    
+    <!-- This is meant to be the canonical feature identifying 2020 and newer devices. -->
+    <feature name="com.google.android.feature.PIXEL_2020_EXPERIENCE" />
 
+    <!-- This is meant to be the canonical feature identifying 2020 mid year and newer devices. -->
+    <feature name="com.google.android.feature.PIXEL_2020_MIDYEAR_EXPERIENCE" />
+
+    <feature name="com.google.android.feature.NEXT_GENERATION_ASSISTANT" />
+    
+    <!-- These are the packages that are enabled by default as VR mode listeners -->
+    <default-enabled-vr-app package="com.google.vr.vrcore"
+        class="com.google.vr.vrcore.common.VrCoreListenerService" />
 </config>
