@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<permissions>
+  <library name="com.google.android.dialer.support"
+      file="/system/product/framework/com.google.android.dialer.support.jar" />
+</permissions>
