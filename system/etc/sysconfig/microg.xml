@@ -70,6 +70,11 @@
     <allow-unthrottled-location package="org.microg.nlp.backend.ichnaea" />
     <allow-unthrottled-location package="org.microg.nlp.backend.apple" />
 
+    <hidden-api-whitelisted-app package="com.google.android.gsf" />
+    <hidden-api-whitelisted-app package="com.google.android.gms" />
+    <hidden-api-whitelisted-app package="org.microg.gms.droidguard" />
+    <hidden-api-whitelisted-app package="com.android.vending" />
+  
     <!-- These are the packages that are white-listed to be able to run as system user -->
     <system-user-whitelisted-app package="com.android.vending" />
     <system-user-whitelisted-app package="com.google.android.gms" />
