@@ -44,23 +44,6 @@
     <app-link package="org.microg.gms.droidguard" />
     <app-link package="com.google.android.gsf" />
 
-    <!-- Apps below are optional on GMS devices -->
-    <app-link package="com.google.android.apps.maps" />
-    <app-link package="com.google.android.youtube" />
-    <app-link package="com.google.android.apps.docs" />
-    <app-link package="com.google.android.talk" />
-    <app-link package="com.google.android.apps.photos" />
-    <app-link package="com.google.android.music" />
-
-    <app-link package="com.google.android.apps.tycho" />
-    <app-link package="com.google.android.apps.plus" />
-    <app-link package="com.google.android.apps.docs.editors.sheets" />
-    <app-link package="com.google.android.apps.docs.editors.slides" />
-    <app-link package="com.google.android.apps.docs.editors.docs" />
-    <app-link package="com.google.android.talk" />
-    <app-link package="com.google.android.videos" />
-    <app-link package="com.google.android.calendar" />
-
     <!-- Uncontrolled access to location for backends. -->
     <allow-unthrottled-location package="org.openbmap.unifiedNlp" />
     <allow-unthrottled-location package="org.fitchfamily.android.wifi_backend" />
