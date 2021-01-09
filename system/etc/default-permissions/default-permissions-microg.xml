@@ -42,6 +42,8 @@
         <!-- Storage -->
         <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+        <!-- FAKE_SIGNATURE -->
+        <permission name="android.permission.FAKE_PACKAGE_SIGNATURE" fixed="false"/>
     </exception>
 
     <exception
@@ -80,6 +82,8 @@
         <!-- Storage -->
         <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+        <!-- FAKE_SIGNATURE -->
+        <permission name="android.permission.FAKE_PACKAGE_SIGNATURE" fixed="false"/>
     </exception>
 
     <exception
