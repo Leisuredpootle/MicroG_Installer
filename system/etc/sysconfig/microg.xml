@@ -19,8 +19,8 @@
          access while in power save mode, even if they aren't in the foreground. -->
 
     <!-- MicroG must always have network access for GCM and other things. -->
-    <allow-in-power-save-except-idle package="com.google.android.gms" />
     <!--
+    <allow-in-power-save package="com.google.android.gms" />
     <allow-in-data-usage-save package="com.google.android.gms" />
     <allow-unthrottled-location package="com.google.android.gms" />
     <allow-ignore-location-settings package="com.google.android.gms" />
