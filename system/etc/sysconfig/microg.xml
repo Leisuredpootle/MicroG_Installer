@@ -25,7 +25,11 @@
     <allow-unthrottled-location package="com.google.android.gms" />
     <allow-ignore-location-settings package="com.google.android.gms" />
     -->
-
+    
+    <!-- Turbo must not have App Standby restrictions in order to push new
+         App Standby buckets to the platform periodically -->
+    <allow-in-power-save-except-idle package="com.google.android.apps.turbo" />
+    
     <!-- Certain broadcasts must still go to legacy implicit receivers -->
     <allow-implicit-broadcast action="com.google.android.checkin.CHECKIN_COMPLETE" />
     <allow-implicit-broadcast action="com.google.gservices.intent.action.GSERVICES_CHANGED" />
@@ -65,6 +69,7 @@
     <!-- These are the packages that are white-listed to be able to run as system user -->
     <system-user-whitelisted-app package="com.android.vending" />
     <system-user-whitelisted-app package="com.google.android.gms" />
+    <system-user-whitelisted-app package="com.google.android.gms.policy_auth" />
     <system-user-whitelisted-app package="com.google.android.gsf" />
     <system-user-whitelisted-app package="org.microg.gms.droidguard" />
 
@@ -82,9 +87,11 @@
     <!-- Specify the explicit set of other applications whose app data directories are
         accessible by other applications. -->
     <app-data-isolation-whitelisted-app package="com.google.android.gms" />
+    <app-data-isolation-whitelisted-app package="com.android.vending" />
 
     <!-- Whitelist of packages that eligible for rollback -->
     <rollback-whitelisted-app package="com.android.vending" />
+    <rollback-whitelisted-app package="com.google.android.gms" />
     
     <whitelisted-staged-installer package="com.android.vending" />
 </config>

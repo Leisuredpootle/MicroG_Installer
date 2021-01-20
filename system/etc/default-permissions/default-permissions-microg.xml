@@ -87,6 +87,22 @@
     </exception>
 
     <exception
+            package="com.google.android.gsf">
+        <!-- Contacts -->
+        <permission name="android.permission.READ_CONTACTS" fixed="false"/>
+        <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
+        <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
+        <!-- Phone -->
+        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+        <permission name="android.permission.CALL_PHONE" fixed="false"/>
+        <permission name="android.permission.READ_CALL_LOG" fixed="false"/>
+        <permission name="android.permission.WRITE_CALL_LOG" fixed="false"/>
+        <permission name="android.permission.ADD_VOICEMAIL" fixed="false"/>
+        <permission name="android.permission.USE_SIP" fixed="false"/>
+        <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
+    </exception>
+
+    <exception
             package="com.google.android.syncadapters.calendar">
         <!-- Calendar -->
         <permission name="android.permission.READ_CALENDAR" fixed="false"/>
