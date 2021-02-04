@@ -15,8 +15,7 @@
     The exceptions below have been set by NikGApps as factory defaults
     -->
 
-    <exception
-            package="com.android.vending">
+    <exception package="com.android.vending">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
@@ -46,79 +45,39 @@
         <permission name="android.permission.FAKE_PACKAGE_SIGNATURE" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.gms">
-        <!-- Calendar -->
-        <permission name="android.permission.READ_CALENDAR" fixed="false"/>
-        <permission name="android.permission.WRITE_CALENDAR" fixed="false"/>
-        <!-- Camera -->
-        <permission name="android.permission.CAMERA" fixed="false"/>
-        <!-- Contacts -->
+    <exception package="com.google.android.gms">
+        <!-- Phone -->
+        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+        <!-- Account -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
         <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
         <!-- Location -->
         <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
         <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
-        <!-- Microphone -->
-        <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
-        <!-- Phone -->
-        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
-        <permission name="android.permission.CALL_PHONE" fixed="false"/>
-        <permission name="android.permission.READ_CALL_LOG" fixed="false"/>
-        <permission name="android.permission.WRITE_CALL_LOG" fixed="false"/>
-        <permission name="android.permission.ADD_VOICEMAIL" fixed="false"/>
-        <permission name="android.permission.USE_SIP" fixed="false"/>
-        <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
-        <!-- Sensors -->
-        <permission name="android.permission.BODY_SENSORS" fixed="false"/>
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="false"/>
+        <permission name="org.microg.permission.FORCE_COARSE_LOCATION" fixed="false"/>
         <!-- SMS -->
-        <permission name="android.permission.SEND_SMS" fixed="false"/>
         <permission name="android.permission.RECEIVE_SMS" fixed="false"/>
-        <permission name="android.permission.READ_SMS" fixed="false"/>
-        <permission name="android.permission.RECEIVE_WAP_PUSH" fixed="false"/>
-        <permission name="android.permission.RECEIVE_MMS" fixed="false"/>
-        <permission name="android.permission.READ_CELL_BROADCASTS" fixed="false"/>
         <!-- Storage -->
         <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
-        <!-- FAKE_SIGNATURE -->
-        <permission name="android.permission.FAKE_PACKAGE_SIGNATURE" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.gsf">
-        <!-- Contacts -->
-        <permission name="android.permission.READ_CONTACTS" fixed="false"/>
-        <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
-        <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
-        <!-- Phone -->
-        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
-        <permission name="android.permission.CALL_PHONE" fixed="false"/>
-        <permission name="android.permission.READ_CALL_LOG" fixed="false"/>
-        <permission name="android.permission.WRITE_CALL_LOG" fixed="false"/>
-        <permission name="android.permission.ADD_VOICEMAIL" fixed="false"/>
-        <permission name="android.permission.USE_SIP" fixed="false"/>
-        <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
-    </exception>
-
-    <exception
-            package="com.google.android.syncadapters.calendar">
+    <exception package="com.google.android.syncadapters.calendar">
         <!-- Calendar -->
         <permission name="android.permission.READ_CALENDAR" fixed="false"/>
         <permission name="android.permission.WRITE_CALENDAR" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.syncadapters.contacts">
+    <exception package="com.google.android.syncadapters.contacts">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
         <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.google.android.backuptransport">
+    <exception package="com.google.android.backuptransport">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>

@@ -1,6 +1,6 @@
 <permissions>
   <privapp-permissions package="com.google.android.apps.turbo">
-  <permission name="android.permission.ACCESS_AMBIENT_LIGHT_STATS" />
+    <permission name="android.permission.ACCESS_AMBIENT_LIGHT_STATS" />
   <permission name="android.permission.ACCESS_NETWORK_STATE" />
   <permission name="android.permission.BATTERY_STATS" />
   <permission name="android.permission.BRIGHTNESS_SLIDER_USAGE" />

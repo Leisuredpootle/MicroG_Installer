@@ -54,20 +54,24 @@
     <hidden-api-whitelisted-app package="com.google.android.gms" />
     <hidden-api-whitelisted-app package="org.microg.gms.droidguard" />
     <hidden-api-whitelisted-app package="com.android.vending" />
-  
+    <hidden-api-whitelisted-app package="com.google.android.apps.turbo" />
+    
     <!-- These are the packages that are white-listed to be able to run as system user -->
     <system-user-whitelisted-app package="com.android.vending" />
     <system-user-whitelisted-app package="com.google.android.gms" />
     <system-user-whitelisted-app package="com.google.android.gms.policy_auth" />
     <system-user-whitelisted-app package="com.google.android.gsf" />
     <system-user-whitelisted-app package="org.microg.gms.droidguard" />
-
+    <system-user-whitelisted-app package="com.google.android.apps.turbo" />
+    
     <!-- Apps below are optional on GMS devices -->
     <system-user-whitelisted-app package="com.google.android.play.games" />
     <system-user-whitelisted-app package="com.google.android.tts" />
     
     <!-- Whitelist of what components are permitted as backup data transports.  The
          'service' attribute here is a flattened ComponentName string. -->
+    <backup-transport-whitelisted-service
+        service="android/com.android.internal.backup.LocalTransportService" />
     <backup-transport-whitelisted-service
         service="com.google.android.gms/.backup.BackupTransportService" />
     <backup-transport-whitelisted-service

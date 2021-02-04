@@ -2,7 +2,7 @@
 
 <permissions>
   <library name="com.google.android.dialer.support"
-      file="/system/product/framework/com.google.android.dialer.support.jar" />
+      file="/system/framework/com.google.android.dialer.support.jar" />
    <!-- Starting from Android O and above, this system feature is required for
    getting Google Dialer play store updates. -->
    <feature name="com.google.android.apps.dialer.SUPPORTED" />
