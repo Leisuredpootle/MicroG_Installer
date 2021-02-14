@@ -6,11 +6,13 @@
 
 1.去看看microG的self-check 看看是不是全都有勾勾，没有就按MicroG的步骤走
 
-2.microG和play商店（打了microG补丁）可以去用nanodroid和microG官方f-droid源去更新。模块没问题就不会更新了
+2.microG和play商店（打了microG补丁）可以去用nanodroid和microG官方f-droid源去更新。
 
 https://www.nanolx.org/fdroid/repo/
 
 https://microg.org/download.html
+
+3.内嵌MicroG版本为0.2.15
 
 **遇到问题，请参阅以下链接,因为大部分microG包的问题是类似的,其解决方案也类似**
 
