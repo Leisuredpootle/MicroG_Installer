@@ -8,7 +8,7 @@
 
 2.内嵌MicroG版本为0.2.15
 
-3.使用CrdroidAndroid 7测试,需要使用支持签名欺骗的ROM才能正常使用MicroG,或者使用xposed模块"FakeGapps"
+3.使用CrdroidAndroid 7测试,需要支持签名欺骗的ROM才能正常使用MicroG,或者使用xposed模块"FakeGapps"
 
 **遇到问题，请参阅以下链接,因为大部分microG包的问题是类似的,其解决方案也类似**
 
