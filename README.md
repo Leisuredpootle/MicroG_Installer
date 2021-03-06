@@ -9,7 +9,7 @@
 
 ## 如何使用这个模块?
 
-参照使用导航
+[参照使用导航](https://github.com/Leisuredpootle/MicroG_Installer/blob/R/MicroG%E4%BD%BF%E7%94%A8%E5%AF%BC%E8%88%AA.md)
 
 ### 万分感谢
 
