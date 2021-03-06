@@ -76,4 +76,22 @@ Networks to use for push notification无需进行设置
 
 已知问题,MicroG还未完整实现这个API
 
+### Play商店一直在进行"安全信息更新"/"Google Play更新"
+
+很不幸,本人并未找到一个很好的方法来解决你可以尝试使用ifw禁用: 
+
+Service:
+
+emergencyselfupdateservice
+
+gmscoreupdateservice
+
+safeselfupdateservice
+
+Receiver:
+
+recoverymodedownloadbrocastreceiver
+
+**如果您有完善的解决方法,麻烦您联系我** 
+
 ### 待补充
