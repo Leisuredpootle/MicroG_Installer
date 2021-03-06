@@ -1,19 +1,20 @@
-# MicroG_Installer
-自用的MicroG模块
+# 一个简单的MicroG模块
+## 它能做什么？
 
-**注意事项:**
-0. 在安装后,你需要将模块内所有的软件手动安装一遍(Device Health Service除外),并手动授予所有 **权限**
+给你提供一个可以进行Play商店的下载,更新,购买/内购,还有~~可能完善的FCM推送机制~~的基础环境
 
-1.去看看microG的self-check 看看是不是全都有勾勾，没有就按MicroG的步骤走
+## 它不能做什么？
 
-2.内嵌MicroG版本为0.2.15
+模块的作用受限于MicroG的支持情况,建议您参照[这个链接](https://github.com/microg/GmsCore/wiki/Implementation-Status)来确定它还能做什么
 
-3.使用CrdroidAndroid 7测试,需要支持签名欺骗的ROM才能正常使用MicroG,或者使用xposed模块"FakeGapps"
+## 如何使用这个模块?
 
-**遇到问题，请参阅以下链接,因为大部分microG包的问题是类似的,其解决方案也类似**
+参照使用导航
 
-https://gitlab.com/Nanolx/NanoDroid/-/blob/master/doc/Issues.md
+### 万分感谢
 
-https://github.com/microg/GmsCore/wiki/Helpful-Information
+[MicroG](https://github.com/microg)
 
-https://github.com/FriendlyNeighborhoodShane/MinMicroG/blob/master/install.md
+[NanoDroid](https://gitlab.com/Nanolx/NanoDroid)
+
+[MinMicroG](https://github.com/FriendlyNeighborhoodShane/MinMicroG)
