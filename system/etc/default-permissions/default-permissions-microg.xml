@@ -1,14 +1,5 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 
-<!--
-    This file contains permissions to be granted by default. Default
-    permissions are granted to special platform components and to apps
-    that are approved to get default grants. The special components
-    are apps that are expected to work out-of-the-box as they provide
-    core use cases. Granting these permissions could prevent issues on
-    some ROMs or non-clean installations.
--->
-
 <exceptions>
 
     <exception package="com.android.vending">
@@ -69,13 +60,6 @@
     </exception>
 
     <exception package="com.google.android.syncadapters.contacts">
-        <!-- Contacts -->
-        <permission name="android.permission.READ_CONTACTS" fixed="false"/>
-        <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
-        <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
-    </exception>
-
-    <exception package="com.google.android.backuptransport">
         <!-- Contacts -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
         <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
