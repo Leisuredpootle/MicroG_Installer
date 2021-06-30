@@ -41,6 +41,9 @@ privileged Google applications in GMS devices.
   <permission name="android.permission.INSTALL_LOCATION_PROVIDER" />
   <permission name="ndroid.permission.ACCESS_COARSE_UPDATES" />
   <permission name="android.permission.ACCESS_WIFI_STATE" />
+  <permission name="android.permission.BLUETOOTH_SCAN" />
+  <permission name="android.permission.BLUETOOTH_ADVERTISE" />
+  <permission name="android.permission.BLUETOOTH_CONNECT" />
   </privapp-permissions>
 
 </permissions>
