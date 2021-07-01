@@ -1,6 +1,6 @@
 id=MicroG_Installer
 name=MicroG Installer
-version=0.2.15
-versionCode=215
+version=0.2.20
+versionCode=220
 author=Nonoka
 description=Install MicroG and GoogleSyncAdapter (require Fake significance and Android11)
